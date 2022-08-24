@@ -1,0 +1,142 @@
+mehemai mulin venv ekak haala eekata okkoma karanna 
+
+https://realpython.com/django-setup/
+uda link eka balanna 
+
+
+source env/bin/activate
+kiyana eka gahuwama 
+source' is not recognized as an internal or external command,
+operable program or batch file
+kiyala enwa 
+hethuwa thama source yanu linux command ekak 
+
+env\Scripts\activate
+kiyala thama api windows wala gahanna oni 
+
+
+python -m pip install django
+kiyana command eken django install wenwa virual environment ekata
+
+python manage.py startapp <app name >
+gahanna kalin cd <project name > kiyana ekata gihilla inna 
+
+
+
+ah mehemai 
+meke project ekak athule app kiipayak hadanna pluwan 
+terum ganin 
+pluwan godak hadanna 
+uda tutorial eka baluwama terei
+Ee tutorial eke naha kohomada  server eka run karanne kiyala 
+mehemai 
+python manage.py runserver  
+kiyana command eken server eka up karanna pluwan 
+
+
+
+
+ee tiika karagatthata passe 
+https://www.javatpoint.com/how-to-connect-mysql-to-django
+kiyana eka balanna 
+eeken thama ithuru tika karagena giyee
+
+
+
+stored procedure eka
+https://www.youtube.com/watch?v=0NX573OWM_w
+
+
+
+
+php , js wage newe django wala kelinma html page eka athule hama api tag eka liyanne 
+php wala <?php , js wala {} but django wala apii liyanne  {% %}
+...Habayi mehemai 
+php wala apita page eka directly url eka haraha access karanna pluwan . but django wala ehema baha . 
+api django wala page eka gannakota url path kiyala magulak karala eeka haraha ganne . 
+urls.py eke
+urlpatterns = [
+    #path('admin/', admin.site.urls),
+    path('', views.showdetails  ),
+    path('page2/', views.page2funct  ),
+]
+
+views.py
+def page2funct(request):    
+    return render(request , 'page2.html'  )
+
+widihata yamkisi tunnel ekak wage ekak haraha html eka enne . so eeka haraha eddi ara {} kiyana eewa adaala widihata render karala ewanawa atthe 
+
+
+
+
+new page ekak add karaddi nikan a html page eka daala eekata page name eka dunnata wAdak wenne naha 
+thawa route define karanna tyenwa 
+
+https://www.geeksforgeeks.org/django-creating-a-multi-page-website/
+eke tyewna karanna 
+
+mehemai karanna thiyenne sarala deyak 
+
+
+urls.py eke 
+
+
+urlpatterns = [
+    #path('admin/', admin.site.urls),
+    path('', views.showdetails  ),
+    path('page2/', views.page2funct  ),
+]
+
+
+meekata danna oni ape path eka 
+
+
+
+views.py eke 
+
+
+def page2funct(request):    
+    return render(request , 'page2.html'  )
+
+widihata ape httml eka render karana widihata hadanna oni 
+
+
+ilagata apita adala path eka use karanna pluwan ee page eka ta 
+
+
+
+
+
+
+
+
+
+trigger wala ta 
+https://www.youtube.com/watch?v=e54QZz2M1Fk
+video eka balanna 
+
+
+
+
+
+
+
+
+
+django project wala export kiyala ehema seen ekak naha 
+kelinma project eka zip ekakata export karanna mulin 
+iita passse eeka adaala place eke extract karanna 
+pahala video eke tyenwa karah
+https://www.youtube.com/watch?v=h2w8oNw_W80
+
+
+
+me video eka much better
+https://www.youtube.com/watch?v=MUQEyJF7A2s
+
+
+
+
+
+
