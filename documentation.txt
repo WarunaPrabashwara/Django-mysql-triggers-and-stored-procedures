@@ -3,6 +3,11 @@ mehemai mulin venv ekak haala eekata okkoma karanna
 https://realpython.com/django-setup/
 uda link eka balanna 
 
+[ 
+v env ekak hadanne mehemai 
+python3 -m venv env		/	python -m venv env
+env\Scripts\activate
+]
 
 source env/bin/activate
 kiyana eka gahuwama 
